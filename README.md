@@ -75,14 +75,4 @@ Les fichiers `power_bi_data_model_dax_guide.md` et `power_bi_visual_guide.md` fo
 - Le Top 10 des musiques influence fortement l'engagement, avec des artistes comme Justin Bieber et Bruno Mars dominant certains segments.
 - Des recommandations stratégiques ciblées ont été formulées pour la personnalisation, la rétention, l'acquisition et la diversification du contenu.
 
-## 🎤 Présentation des Résultats
-Accédez à la présentation interactive ici : [Lien vers la présentation](manus-slides://IoMJxp4MOYNnQITn0aIBSB)
 
-## 📈 Rapport Power BI (Simulation)
-Explorez le tableau de bord interactif simulant un rapport Power BI ici : [Lien vers le tableau de bord](https://8000-iwagyq2nexfndou72o0kj-34a9d3fe.us1.manus.computer/spotify_dashboard.html)
-
-## ✍️ Auteur
-Manus AI
-
-## 📄 Licence
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
