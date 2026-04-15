@@ -35,6 +35,7 @@ spotify_segmentation_project/
 │   ├── devices_access.html
 │   ├── recommendations.html
 │   └── conclusion.html
+├── LICENSE                              # Fichier de licence MIT
 └── README.md                            # Ce fichier
 ```
 
@@ -84,4 +85,4 @@ Explorez le tableau de bord interactif simulant un rapport Power BI ici : [Lien 
 Manus AI
 
 ## 📄 Licence
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails. (Note: Le fichier LICENSE n'est pas inclus dans ce dépôt, mais il est recommandé d'en ajouter un.)
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
