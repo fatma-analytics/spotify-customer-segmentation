@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      body { margin: 0; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -1px; /* nudge up 1px to ensure total < 720px while keeping min-height */
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px; /* keep as required */
+        padding-left: 80px;
+        margin-bottom: 24px; /* reduced to save vertical space */
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #1DB954;
+        text-transform: uppercase;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .text-section {
+        width: 60%;
+      }
+      .visual-section {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1DB954;
+        font-size: 200px;
+        opacity: 0.2;
+      }
+      .objective-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 18px; /* reduced spacing between items */
+      }
+      .icon {
+        color: #1DB954;
+        font-size: 24px;
+        margin-right: 20px;
+        padding-top: 5px;
+      }
+      .text {
+        font-size: 24px;
+        line-height: 1.4;
+      }
+      .accent-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 100%;
+        background: #1DB954;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-bar"></div>
+        <div class="header">
+            <h1>Objectifs de l'Étude</h1>
+        </div>
+        <div class="main-content">
+            <div class="text-section">
+                <div class="objective-item">
+                    <i class="fas fa-chart-line icon"></i>
+                    <div class="text">Analyser les profils démographiques des utilisateurs Spotify pour comprendre la base installée.</div>
+                </div>
+                <div class="objective-item">
+                    <i class="fas fa-users icon"></i>
+                    <div class="text">Segmenter l'audience par tranches d'âge et comportements d'écoute spécifiques.</div>
+                </div>
+                <div class="objective-item">
+                    <i class="fas fa-music icon"></i>
+                    <div class="text">Évaluer l'impact des Top 10 musiques sur l'engagement des différents segments.</div>
+                </div>
+                <div class="objective-item">
+                    <i class="fas fa-database icon"></i>
+                    <div class="text">Optimiser les stratégies marketing basées sur les données extraites via SQL.</div>
+                </div>
+            </div>
+            <div class="visual-section">
+                <i class="fas fa-bullseye"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

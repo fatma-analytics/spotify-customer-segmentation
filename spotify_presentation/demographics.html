@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+      body { margin: 0; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px; /* keep upper padding for title */
+        padding-left: 80px;
+        margin-bottom: 24px; /* reduced to save vertical space */
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #1DB954;
+        text-transform: uppercase;
+      }
+      .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .chart-container {
+        width: 600px;
+        height: 360px; /* reduced from 400 */
+        background: #191414;
+        padding-top: 12px; /* reduced from 20 */
+      }
+      .info-panel {
+        width: 480px;
+      }
+      .segment-box {
+        margin-bottom: 16px; /* reduced from 24 */
+      }
+      .segment-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        color: #1DB954;
+        margin-bottom: 8px;
+      }
+      .segment-desc {
+        font-size: 18px;
+        color: #B3B3B3;
+        line-height: 1.4;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Profil Démographique Global</h1>
+        </div>
+        <div class="content-wrapper">
+            <div class="chart-container">
+                <canvas id="ageChart"></canvas>
+            </div>
+            <div class="info-panel">
+                <div class="segment-box">
+                    <div class="segment-title">Gen Z (12-20 ans)</div>
+                    <div class="segment-desc">Segment le plus actif en termes de découverte et d'engagement social.</div>
+                </div>
+                <div class="segment-box">
+                    <div class="segment-title">Millennials (20-35 ans)</div>
+                    <div class="segment-desc">Cœur de cible représentant la majorité des abonnements Premium.</div>
+                </div>
+                <div class="segment-box">
+                    <div class="segment-title">Adultes (35-60 ans)</div>
+                    <div class="segment-desc">Utilisateurs fidèles avec une préférence pour les genres classiques et le rock.</div>
+                </div>
+                <div class="segment-box">
+                    <div class="segment-title">Seniors (60+ ans)</div>
+                    <div class="segment-desc">Consommation ciblée, principalement axée sur le jazz et la musique classique.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const ctx = document.getElementById('ageChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['12-20', '20-35', '35-60', '60+'],
+                datasets: [{
+                    label: 'Répartition des Utilisateurs (%)',
+                    data: [25, 45, 20, 10],
+                    backgroundColor: '#1DB954',
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: '#333' },
+                        ticks: { color: '#B3B3B3' }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: '#B3B3B3', font: { size: 16 } }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

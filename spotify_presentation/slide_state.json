@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "Segmentation Client Spotify",
+    "created": 1776279266.6564717,
+    "last_updated": 1776279844.6726274,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "objectives",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "methodology",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "demographics",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "behavior_table",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "premium_analysis",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "top10_impact",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "mood_context",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "devices_access",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "recommendations",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "conclusion",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "Segmentation Client Spotify",
+      "summary": "Page de couverture avec titre et sous-titre.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "objectives",
+      "title": "Objectifs de l'Étude",
+      "summary": "Présentation des buts de l'analyse de segmentation.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "methodology",
+      "title": "Méthodologie de Segmentation",
+      "summary": "Détails sur les sources de données et les outils utilisés.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "demographics",
+      "title": "Profil Démographique Global",
+      "summary": "Répartition des utilisateurs par tranches d'âge.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "behavior_table",
+      "title": "Comportement par Tranche d'Âge",
+      "summary": "Tableau comparatif des genres, moods et fréquences.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "premium_analysis",
+      "title": "Analyse des Abonnements Premium",
+      "summary": "Focus sur la conversion et l'usage des comptes payants.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "top10_impact",
+      "title": "Impact du Top 10 Musique",
+      "summary": "Analyse de la résonance des artistes majeurs par segment.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "mood_context",
+      "title": "Mood et Contextes d'Écoute",
+      "summary": "Exploration des états émotionnels liés à l'écoute.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "devices_access",
+      "title": "Appareils et Accessibilité",
+      "summary": "Répartition de l'usage par type d'appareil.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommandations Stratégiques",
+      "summary": "Actions marketing suggérées basées sur les données.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "summary": "Synthèse des points clés et perspectives.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

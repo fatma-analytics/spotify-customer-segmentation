@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      /* Remove default page margin and nudge the slide up slightly so overall page height < 720px */
+      body { margin: 0; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; /* keep as required */
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        margin-top: -2px; /* small upward shift to make total page height strictly < 720px */
+      }
+      .header {
+        padding-top: 60px; /* must not be changed */
+        padding-left: 80px;
+        margin-bottom: 10px; /* reduced to save vertical space */
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #1DB954;
+        text-transform: uppercase;
+      }
+      .table-wrapper {
+        padding-left: 80px;
+        padding-right: 80px;
+        display: block;
+        padding-top: 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 22px;
+      }
+      th {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #1DB954;
+        color: #121212;
+        text-align: left;
+        padding: 12px; /* slightly reduced */
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      td {
+        padding: 12px; /* slightly reduced */
+        border-bottom: 1px solid #535353;
+      }
+      tr:nth-child(even) {
+        background-color: rgba(255, 255, 255, 0.03);
+      }
+      .segment-label {
+        font-weight: bold;
+        color: #1DB954;
+      }
+      .accent-bar {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5px;
+        height: 100%;
+        background: #1DB954;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-bar"></div>
+        <div class="header">
+            <h1>Comportement par Tranche d'Âge</h1>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Segment</th>
+                        <th>Genre Préféré</th>
+                        <th>Mood Dominant</th>
+                        <th>Fréquence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="segment-label">12-20 ans</td>
+                        <td>Hip Hop / Pop</td>
+                        <td>Relaxed / Energetic</td>
+                        <td>Plusieurs fois/semaine</td>
+                    </tr>
+                    <tr>
+                        <td class="segment-label">20-35 ans</td>
+                        <td>Pop / Electronic</td>
+                        <td>Energetic / Party</td>
+                        <td>Quotidienne</td>
+                    </tr>
+                    <tr>
+                        <td class="segment-label">35-60 ans</td>
+                        <td>Rock / Classical</td>
+                        <td>Focused / Relaxed</td>
+                        <td>Quotidienne</td>
+                    </tr>
+                    <tr>
+                        <td class="segment-label">60+ ans</td>
+                        <td>Jazz</td>
+                        <td>Relaxed</td>
+                        <td>Quotidienne</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

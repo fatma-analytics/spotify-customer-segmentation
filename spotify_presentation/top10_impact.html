@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      /* Remove default body margin (was contributing 8px) */
+      body { margin: 0; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; /* keep as required */
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px; /* must keep title top padding */
+        padding-left: 80px;
+        margin-bottom: 20px; /* reduced from 40px to save vertical space */
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #1DB954;
+        text-transform: uppercase;
+      }
+      .artist-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px; /* reduced from 40px to tighten rows */
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .artist-box {
+        border: 1px solid #535353;
+        padding-top: 12px; /* reduced from 20px */
+        padding-left: 12px;
+        padding-right: 12px;
+        min-height: 180px; /* reduced from 200px */
+      }
+      .artist-name {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: #1DB954;
+        margin-bottom: 8px; /* slightly tighter */
+        display: flex;
+        align-items: center;
+      }
+      .artist-name i {
+        margin-right: 12px;
+      }
+      .segment-tag {
+        font-size: 14px;
+        color: #121212;
+        background: #1DB954;
+        padding: 2px 8px;
+        font-weight: bold;
+        margin-bottom: 10px; /* slightly reduced */
+        display: inline-block;
+      }
+      .impact-text {
+        font-size: 18px;
+        line-height: 1.4;
+        color: #B3B3B3;
+      }
+      .accent-corner {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: 150px;
+        background: linear-gradient(225deg, #1DB954 0%, transparent 70%);
+        opacity: 0.3;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-corner"></div>
+        <div class="header">
+            <h1>Impact du Top 10 Musique</h1>
+        </div>
+        <div class="artist-grid">
+            <div class="artist-box">
+                <div class="artist-name"><i class="fas fa-star"></i> Justin Bieber</div>
+                <div class="segment-tag">GEN Z &amp; MILLENNIALS</div>
+                <div class="impact-text">Domine largement les segments 12-20 et 20-35 ans avec des titres Pop intemporels comme "Beauty And A Beat".</div>
+            </div>
+            <div class="artist-box">
+                <div class="artist-name"><i class="fas fa-crown"></i> Bruno Mars</div>
+                <div class="segment-tag">MILLENNIALS PREMIUM</div>
+                <div class="impact-text">Forte résonance chez les utilisateurs Premium de 20-35 ans, particulièrement pour les contextes d'écoute énergiques.</div>
+            </div>
+            <div class="artist-box">
+                <div class="artist-name"><i class="fas fa-wave-square"></i> Tame Impala</div>
+                <div class="segment-tag">20-35 ANS PSYCHEDELIC</div>
+                <div class="impact-text">Popularité croissante dans le segment 20-35 ans, porté par les remixes et les playlists de découverte.</div>
+            </div>
+            <div class="artist-box">
+                <div class="artist-name"><i class="fas fa-microphone-alt"></i> Olivia Dean</div>
+                <div class="segment-tag">NICHE SOUL / MILLENNIALS</div>
+                <div class="impact-text">Segment de niche mais extrêmement fidèle au sein des 20-35 ans, favorisant une écoute attentive et répétée.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

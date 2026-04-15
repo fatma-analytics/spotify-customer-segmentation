@@ -1,0 +1,11 @@
+user_id,age_group,gender,usage_period,subscription_plan,preferred_genre,listening_mood,listening_frequency
+1,20-35,Female,1-2 years,Premium,Pop,Energetic,Daily
+2,12-20,Male,< 6 months,Free,Hip Hop,Relaxed,Several times a week
+3,35-60,Male,> 2 years,Premium,Rock,Focused,Daily
+4,20-35,Female,6 months - 1 year,Free,R&B,Sad,Occasionally
+5,60+,Female,> 2 years,Premium,Jazz,Relaxed,Daily
+6,12-20,Male,< 6 months,Free,Pop,Energetic,Several times a week
+7,20-35,Female,1-2 years,Premium,Electronic,Party,Daily
+8,35-60,Male,> 2 years,Free,Classical,Relaxed,Occasionally
+9,20-35,Female,6 months - 1 year,Premium,Hip Hop,Energetic,Daily
+10,12-20,Male,< 6 months,Free,Pop,Happy,Several times a week

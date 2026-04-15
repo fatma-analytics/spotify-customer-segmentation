@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      html, body { height: 100%; margin: 0; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px;
+        padding-left: 80px;
+        margin-bottom: 60px;
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #1DB954;
+        text-transform: uppercase;
+      }
+      .device-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .device-item {
+        text-align: center;
+        padding-top: 20px;
+      }
+      .device-icon {
+        font-size: 80px;
+        color: #1DB954;
+        margin-bottom: 30px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .device-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        color: #1DB954;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+      }
+      .device-text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #B3B3B3;
+      }
+      .accent-bar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 8px;
+        background: #1DB954;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Appareils et Accessibilité</h1>
+        </div>
+        <div class="device-grid">
+            <div class="device-item">
+                <div class="device-icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="device-title">Mobile</div>
+                <div class="device-text">Appareil n°1 pour les 12-35 ans. Idéal pour l'écoute nomade et les playlists quotidiennes.</div>
+            </div>
+            <div class="device-item">
+                <div class="device-icon"><i class="fas fa-desktop"></i></div>
+                <div class="device-title">Desktop</div>
+                <div class="device-text">Utilisation intensive par les 35-60 ans, principalement en contexte professionnel et multitâche.</div>
+            </div>
+            <div class="device-item">
+                <div class="device-icon"><i class="fas fa-volume-up"></i></div>
+                <div class="device-title">Smart Speakers</div>
+                <div class="device-text">Adoption croissante chez les segments Premium pour une écoute domestique mains libres.</div>
+            </div>
+            <div class="device-item">
+                <div class="device-icon"><i class="fas fa-sync-alt"></i></div>
+                <div class="device-title">Multi-device</div>
+                <div class="device-text">Standard pour les utilisateurs Premium quotidiens passant d'un appareil à l'autre sans interruption.</div>
+            </div>
+        </div>
+        <div class="accent-bar"></div>
+    </div>
+</body>
+</html>

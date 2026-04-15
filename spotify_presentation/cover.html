@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      html, body { margin: 0; height: 100%; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .neon-circle {
+        position: absolute;
+        width: 520px;
+        height: 520px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(29, 185, 84, 0.1) 0%, transparent 70%);
+        z-index: 0;
+      }
+      .content {
+        z-index: 1;
+        text-align: center;
+        padding: 8px 16px;
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 64px;
+        color: #1DB954;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      h2 {
+        font-size: 32px;
+        font-weight: 300;
+        margin-bottom: 24px;
+        color: #B3B3B3;
+      }
+      .presenter {
+        font-size: 20px;
+        color: #1DB954;
+        border-top: 2px solid #1DB954;
+        padding-top: 12px;
+        display: inline-block;
+      }
+      .icon-box {
+        font-size: 48px;
+        margin-bottom: 16px;
+        color: #1DB954;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="neon-circle"></div>
+        <div class="content">
+            <div class="icon-box">
+                <i class="fab fa-spotify"></i>
+            </div>
+            <h1>Segmentation Client Spotify</h1>
+            <h2>Analyse Comportementale et Démographique des Top 10 Musiques</h2>
+            <div class="presenter">Présenté par Manus AI</div>
+        </div>
+    </div>
+</body>
+</html>

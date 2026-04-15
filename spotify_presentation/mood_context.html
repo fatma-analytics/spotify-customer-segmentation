@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      html,body{height:100%;margin:0}
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px; /* Do not change - title top padding is important */
+        padding-left: 80px;
+        margin-bottom: 24px; /* reduced from 40 to save vertical space */
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #1DB954;
+        text-transform: uppercase;
+      }
+      .mood-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 28px; /* reduced from 40 */
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .mood-card {
+        display: flex;
+        align-items: center;
+        background: #191414;
+        padding-top: 20px; /* reduced from 30 */
+        padding-left: 24px; /* slightly reduced */
+        padding-right: 24px;
+        min-height: 160px; /* reduced from 180 */
+        border: 1px solid #535353;
+      }
+      .mood-icon {
+        font-size: 60px;
+        color: #1DB954;
+        margin-right: 20px; /* slightly reduced */
+        width: 80px;
+        text-align: center;
+      }
+      .mood-info h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: #1DB954;
+        margin-bottom: 8px; /* slightly reduced */
+        text-transform: uppercase;
+      }
+      .mood-info p {
+        font-size: 18px;
+        line-height: 1.4;
+        color: #B3B3B3;
+      }
+      .accent-dot {
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        background: #1DB954;
+        border-radius: 50%;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Mood et Contextes d'Écoute</h1>
+        </div>
+        <div class="mood-grid">
+            <div class="mood-card">
+                <div class="mood-icon"><i class="fas fa-bolt"></i></div>
+                <div class="mood-info">
+                    <h2>Energetic</h2>
+                    <p>Principalement associé à la Pop et l'Electronic. Dominant chez les 20-35 ans pour le sport et les trajets.</p>
+                </div>
+            </div>
+            <div class="mood-card">
+                <div class="mood-icon"><i class="fas fa-leaf"></i></div>
+                <div class="mood-info">
+                    <h2>Relaxed</h2>
+                    <p>Mood favori pour le Jazz et le Classique. Très présent chez les 35-60+ ans en fin de journée.</p>
+                </div>
+            </div>
+            <div class="mood-card">
+                <div class="mood-icon"><i class="fas fa-brain"></i></div>
+                <div class="mood-info">
+                    <h2>Focused</h2>
+                    <p>Forte utilisation du Rock et Lo-fi chez les professionnels (35-60 ans) durant les heures de travail.</p>
+                </div>
+            </div>
+            <div class="mood-card">
+                <div class="mood-icon"><i class="fas fa-glass-cheers"></i></div>
+                <div class="mood-info">
+                    <h2>Party</h2>
+                    <p>Pics d'utilisation le week-end. Genres Hip Hop et Dance privilégiés par les segments 12-35 ans.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

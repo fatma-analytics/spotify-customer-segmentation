@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      html, body { height: 100%; margin: 0; }
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        background: #121212; 
+        color: #FFFFFF; 
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header {
+        padding-top: 60px; /* keep upper padding */
+        padding-left: 80px;
+        margin-bottom: 48px; /* reduced from 60 */
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        color: #1DB954;
+        text-transform: uppercase;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px; /* reduced gap */
+        padding-left: 60px; /* reduced horizontal padding */
+        padding-right: 60px;
+      }
+      .grid-item {
+        text-align: center;
+        padding-top: 10px; /* reduced */
+      }
+      .icon-circle {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #1DB954;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 16px; /* slightly reduced */
+        font-size: 40px;
+        color: #1DB954;
+      }
+      .item-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #1DB954;
+        margin-bottom: 12px; /* reduced */
+        text-transform: uppercase;
+      }
+      .item-text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #B3B3B3;
+      }
+      .accent-line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(90deg, #1DB954, transparent);
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Méthodologie de Segmentation</h1>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="icon-circle"><i class="fas fa-database"></i></div>
+                <div class="item-title">Source des Données</div>
+                <div class="item-text">Dataset Kaggle "Spotify User Behavior" comprenant 520 entrées anonymisées.</div>
+            </div>
+            <div class="grid-item">
+                <div class="icon-circle"><i class="fas fa-calendar-alt"></i></div>
+                <div class="item-title">Période d'Analyse</div>
+                <div class="item-text">Focus sur les tendances du Top 10 musiques mondiales pour 2024/2025.</div>
+            </div>
+            <div class="grid-item">
+                <div class="icon-circle"><i class="fas fa-filter"></i></div>
+                <div class="item-title">Variables Clés</div>
+                <div class="item-text">Âge, Genre, Plan d'abonnement, Mood dominant et Fréquence d'écoute.</div>
+            </div>
+            <div class="grid-item">
+                <div class="icon-circle"><i class="fas fa-code"></i></div>
+                <div class="item-title">Outil d'Analyse</div>
+                <div class="item-text">Script SQL personnalisé pour la segmentation multicritère et l'extraction d'insights.</div>
+            </div>
+        </div>
+        <div class="accent-line"></div>
+    </div>
+</body>
+</html>
