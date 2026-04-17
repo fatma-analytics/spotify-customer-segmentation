@@ -4,9 +4,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # 1. Chargement des données
-users = pd.read_csv('/home/ubuntu/spotify_users.csv')
-tracks = pd.read_csv('/home/ubuntu/spotify_tracks.csv')
-history = pd.read_csv('/home/ubuntu/spotify_listening_history.csv')
+users = pd.read_csv("spotify_users.csv")
+tracks = pd.read_csv("spotify_tracks.csv")
+history = pd.read_csv("spotify_listening_history.csv")
 
 # Fusion des données pour l'analyse
 df = history.merge(users, on='user_id').merge(tracks, on='track_id')
@@ -165,7 +165,7 @@ html_content = f"""
 </html>
 """
 
-with open('/home/ubuntu/spotify_dashboard.html', 'w') as f:
+with open("spotify_dashboard.html", "w") as f:
     f.write(html_content)
 
-print("Dashboard généré avec succès : /home/ubuntu/spotify_dashboard.html")
+print("Dashboard généré avec succès : spotify_dashboard.html")
