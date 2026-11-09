@@ -1,0 +1,71 @@
+{
+  "qualite": {
+    "lignes_brutes": 32833,
+    "titres_uniques": 28356,
+    "doublons_titre_playlist": 4477,
+    "valeurs_manquantes": 5,
+    "titres_popularite_zero": 2620,
+    "titres_dans_plusieurs_genres": 1687,
+    "titres_analyses": 28356
+  },
+  "segmentation": {
+    "k_retenu": 6,
+    "silhouette_par_k": {
+      "3": 0.139,
+      "4": 0.152,
+      "5": 0.153,
+      "6": 0.157,
+      "7": 0.145,
+      "8": 0.141
+    }
+  },
+  "precision_genre": 0.569,
+  "popularite": {
+    "r2_audio_seul": 0.069,
+    "r2_audio_genre_annee": 0.13
+  },
+  "segments": [
+    {
+      "segment_nom": "Joyeux & dansant",
+      "titres": 9145,
+      "popularite_mediane": 45.0,
+      "genre_principal": "latin",
+      "part_genre_principal": 0.264
+    },
+    {
+      "segment_nom": "Peu dansant & mélancolique",
+      "titres": 7282,
+      "popularite_mediane": 42.0,
+      "genre_principal": "edm",
+      "part_genre_principal": 0.284
+    },
+    {
+      "segment_nom": "Acoustique & calme",
+      "titres": 4059,
+      "popularite_mediane": 45.0,
+      "genre_principal": "r&b",
+      "part_genre_principal": 0.326
+    },
+    {
+      "segment_nom": "Parlé / rap & dansant",
+      "titres": 3763,
+      "popularite_mediane": 44.0,
+      "genre_principal": "rap",
+      "part_genre_principal": 0.544
+    },
+    {
+      "segment_nom": "Instrumental & mélancolique",
+      "titres": 2264,
+      "popularite_mediane": 32.0,
+      "genre_principal": "edm",
+      "part_genre_principal": 0.578
+    },
+    {
+      "segment_nom": "Live & énergique",
+      "titres": 1843,
+      "popularite_mediane": 38.0,
+      "genre_principal": "edm",
+      "part_genre_principal": 0.27
+    }
+  ]
+}

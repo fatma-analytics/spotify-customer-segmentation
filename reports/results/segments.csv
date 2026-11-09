@@ -1,0 +1,7 @@
+segment_nom,titres,popularite_mediane,genre_principal,part_genre_principal
+Joyeux & dansant,9145,45.0,latin,0.264
+Peu dansant & mélancolique,7282,42.0,edm,0.284
+Acoustique & calme,4059,45.0,r&b,0.326
+Parlé / rap & dansant,3763,44.0,rap,0.544
+Instrumental & mélancolique,2264,32.0,edm,0.578
+Live & énergique,1843,38.0,edm,0.27
